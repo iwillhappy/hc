@@ -1,0 +1,140 @@
+//单个课程
+.course_item{
+    width: 320px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    .tag{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 73px;
+        height: 30px;
+        background-image: url(/imgs/tag.png);
+        background-size: cover;
+        text-align: right;
+        line-height: 30px;
+        padding-right: 12px;
+        font-size: 18px;
+        font-family: DINC-Bold;
+        font-weight: bold;
+        color: #FFFFFF;
+    }
+    &:hover{
+        cursor: pointer;
+        transform: translateY(-41px);
+        -webkit-transform: translateY(-41px);
+        -moz-transform: translateY(-41px);
+        -ms-transform: translateY(-41px);
+        -o-transform: translateY(-41px);
+        transition: 0.1s;
+        -webkit-transition: 0.1s;
+        -moz-transition: 0.1s;
+        -ms-transition: 0.1s;
+        -o-transition: 0.1s;
+        box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.29);
+    }
+    img{
+        width: 320px;
+        height: 197px;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .courser_title{
+        width: 100%;
+        padding: 0 17px 0 21px;
+        margin: 16px 0 18px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        :first-child{
+            padding: 7px 8px;
+            border-radius: 3px;
+            font-size: 16px;
+            font-family: san-regular;
+            font-weight: 400;
+            margin-right: 15px;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            -ms-border-radius: 3px;
+            -o-border-radius: 3px;
+        }
+        .gongxu{
+             background: rgba(23,168,249,0.1);
+             border: 1px solid #17A8F9;
+             color: #17A8F9;
+        }
+        .zhuanye{
+            background: rgba(0, 169, 181,0.1);
+            border: 1px solid #00A9B5;
+            color: #00A9B5;
+        }
+        .gongyi{
+            background: rgba(255, 135, 0,0.1);
+            border: 1px solid #FF8700;
+            color: #FF8700;
+        }
+        :last-child{
+            width: 180px;
+            font-size: 20px;
+            font-family: san-bold;
+            font-weight: bold;
+            color: #000000;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+    }
+    .course_info{
+        width: 100%;
+        padding: 0 17px 0 21px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        div{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            :first-child{
+                font-size: 32px;
+                font-family: DINC-Bold;
+                font-weight: bold;
+                color: #E82A32;
+                margin-right: 9px;
+            }
+            :nth-child(2){
+                font-size:22px;
+                color: #4D6779;
+                font-family: DINC-Bold;
+            }
+            :last-child{
+                font-size:22px;
+                color: #4D6779;
+                font-family: san-medium;
+            }
+        }
+        button{
+            width: 88px;
+            height: 34px;
+            background: #17A8F9;
+            box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.15);
+            border-radius: 5px;
+            font-size: 18px;
+            font-family: san-medium;
+            font-weight: 500;
+            color: #FFFFFF;
+            text-align: center;
+            line-height: 34px;
+            outline: none;
+            border: none;
+        }
+    }
+}

@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "san-bold";
+  src: url("./SourceHanSansCN-Bold.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "san-extralight";
+  src: url("./SourceHanSansCN-ExtraLight.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "san-heavy";
+  src: url("./SourceHanSansCN-Heavy.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "san-light";
+  src: url("./SourceHanSansCN-Light.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "san-medium";
+  src: url("./SourceHanSansCN-Medium.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "san-normal";
+  src: url("./SourceHanSansCN-Normal.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "san-regular";
+  src: url("./SourceHanSansCN-Regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "YouSheBiaoTiHei";
+  src: url("./YouSheBiaoTiHei-2.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "DINC-Bold";
+  src: url("./DINCond-Bold.otf");
+  font-weight: normal;
+  font-style: normal;
+}

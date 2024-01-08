@@ -1,0 +1,333 @@
+.coursePage_container{
+    width: 100%;
+    height: auto;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #F0F8FF;
+}
+.course_banner{
+    width: 100%;
+    height: 691px;
+    background-image: url(/imgs/course-center-banner.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 175px;
+}
+.hasyear_banner{
+    height: 793px;
+}
+.top_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.search_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 109px;
+}
+.search_title{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    
+    
+}
+.video_icon{
+    width: 58px;
+    height: 56px;
+    margin-right: 10px;
+}
+.font_title{
+    font-family: YouSheBiaoTiHei;
+    font-size: 60px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 66px;
+}
+.search_input_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.search_input_main{
+    width: 550px;
+    height: 68px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 0 30px;
+    margin-right: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.search_input{
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    font-size: 22px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #000;
+    padding-left: 21px;
+    border-left: 1px solid rgba(0,0,0,0.2);
+}
+.search_input_noyear{
+    outline: none;
+    border: none;
+    width: calc(width - 157px);
+    height: 100%;
+    line-height: 68px;
+    font-size: 22px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #000;
+}
+.search_input::placeholder{
+    font-size: 20px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: rgba(0,0,0,0.5);
+    
+}
+// 课程分类
+.course_classes_container{
+    width: 1359px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    margin-top: 45px;
+}
+.course_years_container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transform:   translateX(-39px)  ;
+    -webkit-transform:   translateX(-39px)  ;
+    -moz-transform:   translateX(-39px)  ;
+    -ms-transform:   translateX(-39px)  ;
+    -o-transform:   translateX(-39px)  ;
+    .year{
+        width: 258px;
+        height: 104px;
+        background-image: url(/imgs/year-bg.png);
+        background-size: cover;
+        text-align: center;
+        font-size: 26px;
+        font-family: san-regular;
+        font-weight: 400;
+        color: #4D6779;
+        padding-top: 24px;
+        position: absolute;
+        top: 0;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    :nth-child(1){
+        z-index: 5;
+        // top:-37px;
+        left: 0;
+    }
+    :nth-child(2){
+        z-index: 4;
+        left: 180px;
+        // left: 258px;
+       
+    }
+    :nth-child(3){
+        z-index: 3;
+        // left: 415px;
+        // left: 516px;
+        left: 360px;
+       
+    }
+    :nth-child(4){
+        z-index: 2;
+        // left: 590px;
+        // left: 774px;
+        left: 540px;
+       
+    }
+    :nth-child(5){
+        z-index: 1;
+        // left: 1032px;
+        left: 720px;
+       
+    }
+    .year_active{
+        background-image: url(/imgs/year-bg-active.png);
+        background-size: cover;
+        width: 348px;
+         height: 162px;
+        font-size: 36px;
+        font-family: san-bold;
+        font-weight: bold;
+        color: #00ADFF;
+        z-index: 6;
+        text-align: left;
+        padding-left: 93px;
+        padding-top: 45px;
+        top:-48px
+    }
+    .transformed{
+        transform: translateX(18px);
+        -webkit-transform: translateX(18px);
+        -moz-transform: translateX(18px);
+        -ms-transform: translateX(18px);
+        -o-transform: translateX(18px);
+    }
+    .year_active ~ .year{
+        transform: translateX(108px);
+        -webkit-transform: translateX(108px);
+        -moz-transform: translateX(108px);
+        -ms-transform: translateX(108px);
+        -o-transform: translateX(108px);
+}
+    
+}
+.classes_container{
+   width: 1353px;
+    height: 264px;
+    background: #fff;
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.18);
+    border-radius: 25px;
+    border-top-left-radius: 0;
+    position: absolute;
+    top:70px;
+    // left: 39px;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 38px 35px 38px 29px;
+}
+.classes_types{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.types_title{
+    font-size: 20px;
+    font-family: san-medium;
+    font-weight: 500;
+    color: #000000;
+}
+.types_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    span{
+        padding: 7px 17px;
+        font-size: 18px;
+        font-family: san-regular;
+        
+        color: #4D6779;
+        margin: 0 10px;
+        &:hover{
+            cursor: pointer;
+            background: #0CA3F2;
+            box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.41);
+            border-radius: 4px;
+            color: #fff;
+            font-weight: bold;
+        }
+    }
+    .type_actived{
+        background: #0CA3F2;
+        box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.41);
+        border-radius: 4px;
+        color: #fff;
+        font-weight: bold;
+    }
+}
+.classes_Profession{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 32px;
+    .types_title{
+        width: 100px;
+    }
+}
+.profession_list{
+    width: calc(100% - 100px);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    span{
+        padding: 7px 17px;
+        font-size: 18px;
+        font-family: san-regular;
+        
+        color: #4D6779;
+        margin: 0 10px;
+        margin-bottom: 11px;
+        &:hover{
+            cursor: pointer;
+            background: #0CA3F2;
+            box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.41);
+            border-radius: 4px;
+            color: #fff;
+            font-weight: bold;
+        }
+    }
+    .type_actived{
+        background: #0CA3F2;
+        box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.41);
+        border-radius: 4px;
+        color: #fff;
+        font-weight: bold;
+    }
+}
+
+//课程列表
+.course_list_container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 192px;
+    padding-bottom: 43px;
+}
+.course_list_center{
+    width: 1353px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4,320px);
+    gap: 23px 33px;
+}

@@ -1,0 +1,155 @@
+/* 最大盒子 */
+#FriendlyBox {
+  width: 100%;
+  // height: 324px;
+  background-color: #343538;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* 中间固定盒子 */
+#FriendlyminBox {
+  width: 1364px;
+  height: 73px;
+  border-bottom: 1px solid #eff2fb;
+  margin: 0 auto;
+  display: flex;
+}
+
+/* flex布局 */
+#FriendlyminBox > div {
+  margin-top: 26px;
+  font-size: 14px;
+  font-family: Source Han Sans CN;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+#FriendlyminBox > div > a {
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Source Han Sans CN;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+#FriendlyLink {
+  margin-left: 20px;
+}
+/* 最大盒子的宽度和高度 */
+#foooterBox {
+  width: 100%;
+  height: auto;
+  background-color: #343538;
+}
+
+/* 内容居中 */
+.footerminBox {
+  width: 1364px;
+  height: 261px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* 左右flex */
+.footerFlex {
+  width: 50%;
+  height: 261px;
+}
+
+/* 底部logo */
+#footerLogo {
+  width: 531px;
+  height: 50px;
+  margin-top: 34px;
+  img {
+    width: 531px;
+    height: 50px;
+  }
+}
+
+/* 主管单位text */
+#footerText {
+  width: 634px;
+  height: 48px;
+  margin-top: 38px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-family: Source Han Sans CN;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+/* 主管单位（内容flex） */
+.footerSponsor {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* 京公网备 */
+#footerFilings {
+  width: 634px;
+  height: 24px;
+  margin-top: 18px;
+  display: flex;
+  font-size: 14px;
+  font-family: Source Han Sans CN;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+#footerFilings > img {
+  width: 24px;
+  height: 24px;
+}
+
+#footerFilings > div {
+  margin-left: 15px;
+  line-height: 24px;
+}
+
+/* 微信扫码/专辑公众号 */
+#footerWx {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#footerWx > div {
+  width: 89px;
+  height: 113px;
+  margin-right: 15px;
+  margin-top: 52px;
+}
+
+.Twodimensionalcode {
+  width: 89px;
+  height: 89px;
+}
+
+.foooterimgtext {
+  font-size: 14px;
+  font-family: Source Han Sans CN;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.footerCode {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+/* 在线客服 */
+
+#Customer {
+  position: fixed;
+  bottom: 20px;
+  right: 31px;
+  z-index: 3;
+}

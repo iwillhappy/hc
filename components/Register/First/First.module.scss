@@ -1,0 +1,126 @@
+.container{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.form{
+    margin-top: 26px;
+}
+.input_container{
+    width: 345px;
+    height: 50px;
+    background: #fff;
+    border: 1px solid #E3E3E3;
+    
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 22px;
+    position: relative;
+    margin-top: 20px;
+    input{
+        border: none;
+        outline: none;
+        background-color: rgba(255,255,255, 0);
+        margin-left: 8px;
+        color: #000;
+        font-size: 19px;
+        font-family: Arial;
+        font-weight: 400;
+    }
+    ::placeholder{
+        color: rgba(0,0,0,0.5);
+    }
+    button{
+        font-size: 19px;
+        font-family: san-regular;
+        font-weight: 400;
+        color: #0092FF;
+        border: none;
+        outline: none;
+        position: absolute;
+        right: 20px;
+        top:50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        background-color: rgba(255,255,255, 0);
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+.focused{
+   border-color: #0092FF;
+   background: rgba(239,244,254,0.38);
+}
+.register_rules{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: #000000;
+    font-size: 19px;
+    font-family: san-regular;  
+    margin-top: 46px;  
+    img{
+        margin-right: 8px;
+    }
+    a{
+        font-family: san-medium;   
+        color: #0092FF; 
+    }
+    :hover{
+        cursor: pointer;
+    }
+}
+.submit{
+    width: 346px;
+    height: 52px;
+    background: #0092FF;
+    border-radius: 10px;
+    font-size: 22px;
+    font-family: san-medium;
+    font-weight: 500;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    margin-top: 21px;
+    &:hover{
+        cursor: pointer;
+    }
+}
+.login_link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    font-family: san-regular; 
+    margin-top: 21px; 
+    span{
+        color: #000000;
+    }
+    a{
+        color: #0092FF;
+        margin-left: 10px;
+    }
+}
+.input_container_error{
+    border-color: #FB6E6E!important;
+}
+.error{
+    width: 345px;
+    text-align: left;
+    font-size: 19px;
+    font-family: san-regular;
+    font-weight: 400;
+    color: #F22A2A;
+}

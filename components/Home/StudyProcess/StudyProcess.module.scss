@@ -1,0 +1,64 @@
+.process_flow {
+  height: 0;
+  width: 100%;
+  position: relative;
+  
+  .flow_container {
+    position: absolute;
+    z-index: 2;
+    top: -144px;
+    left: 50%;
+    transform: translateX(-50%);
+    width:1350px;
+    height: 220px;
+    background: #ffffff;
+    border-radius: 34px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 76px;
+    .flow_item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      img {
+        margin-top: 23px;
+        width: 93px;
+        height: 93px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+      }
+      span {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        letter-spacing: 1px;
+        :first-child {
+          color: #1765fe;
+          font-size: 24px;
+          font-family: san-bold;
+        }
+        :last-child {
+          color: #222a39;
+          font-size: 24px;
+          font-family: san-bold;
+        }
+      }
+    }
+    .nextimg {
+      width: 66px;
+      height: 29px;
+      margin-top: 50px !important;
+    }
+  }
+}

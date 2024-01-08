@@ -1,0 +1,224 @@
+.teacher_container {
+  width: 100%;
+  min-height: 853px;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.teacher_container_center {
+  width: 1350px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  .news_title {
+    width: 100%;
+    height: auto;
+    margin-top: 62px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .title_nav {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 15px;
+    .announcement {
+      font-size: 30px;
+      font-family: san-regular;
+      font-weight: 400;
+      color: #49596d;
+    }
+    .announcement:hover,
+    .hot:hover {
+      cursor: pointer;
+    }
+    .title_nav_active {
+      font-size: 34px;
+      font-family: san-bold;
+      font-weight: bold;
+      color: #000000;
+    }
+    .active_bg {
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    .hot {
+      font-size: 24px;
+      font-family: san-regular;
+      font-weight: 400;
+      color: #49596d;
+      line-height: 50px;
+    }
+    .line {
+      width: 1px;
+      height: 17px;
+      background: #49596d;
+      opacity: 0.3;
+      margin: 0 21px 0 23px;
+    }
+  }
+  .more_news {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 13px 20px;
+    color: #49596d;
+    :first-child {
+      font-size: 20px;
+      font-family: san-regular;
+      font-weight: 400;
+      margin-right: 11px;
+    }
+    img {
+      margin-left: 11px;
+    }
+    &:hover {
+      cursor: pointer;
+      background-color: rgba(84, 141, 238, 0.1);
+      color: #548dee !important;
+      text-shadow: 0px 4px 1px rgba(11, 78, 192, 0.2);
+      border-radius: 10px;
+    }
+  }
+
+  .teacher_list {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+
+    .teacher_item {
+      width: 288px;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      .teacher_photo {
+        width: 208px;
+        height: 270px;
+        border-radius: 10px;
+      }
+      .teacher_name {
+        font-size: 24px;
+        font-family: san-bold;
+        font-weight: bold;
+        color: #1b1b1b;
+        margin: 18px 0 13px;
+      }
+      .teacher_desc {
+        font-size: 18px;
+        font-family: san-regular;
+        font-weight: 400;
+        color: #49596d;
+        width: 180px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-wrap: nowrap;
+      }
+      :hover {
+        cursor: pointer;
+      }
+    }
+    .hoverd {
+      width: 336px;
+      height: 499px;
+      background-image: url(/imgs/teacher-bg.png);
+      background-position: center center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      transform: scale(1.1);
+      transition: 0.1s;
+    }
+  }
+
+  .teacher_desc_container {
+    width: 100%;
+    height: auto;
+    background: #f7faff;
+    border-radius: 20px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 0;
+    position: relative;
+    .left_container {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      margin-left: 43px;
+      width: 1149px;
+      .left_top {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 29px;
+        :first-child {
+          font-size: 24px;
+          font-family: san-bold;
+          font-weight: bold;
+          color: #1b1b1b;
+        }
+        :last-child {
+          font-size: 18px;
+          font-family: san-regular;
+          font-weight: 400;
+          color: #49596d;
+          margin-left: 24px;
+        }
+      }
+      .left_botttom {
+        width: 1149px;
+        // height: 77px;
+        font-size: 18px;
+        font-family: san-regular;
+        font-weight: 400;
+        color: #49596d;
+        line-height: 30px;
+      }
+    }
+    .right_container {
+      width: 181px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      right: 10px;
+      .number {
+        font-size: 80px;
+        font-family: D-DIN;
+        font-weight: bold;
+        color: #49596d;
+        opacity: 0.1;
+      }
+      .lines {
+        width: 1px;
+        height: 57px;
+        background: #49596d;
+        opacity: 0.2;
+      }
+    }
+  }
+}

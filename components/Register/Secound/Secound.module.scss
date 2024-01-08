@@ -1,0 +1,276 @@
+.container{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.input_container{
+    width: 345px;
+    height: 50px;
+    background: #fff;
+    border: 1px solid #E3E3E3;
+    
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 22px;
+    position: relative;
+    margin-top: 20px;
+    input{
+        border: none;
+        outline: none;
+        background-color: rgba(255,255,255, 0);
+        margin-left: 8px;
+        color: #000;
+        font-size: 19px;
+        font-family: Arial;
+        font-weight: 400;
+    }
+    ::placeholder{
+        color: rgba(0,0,0,0.5);
+    }
+    button{
+        font-size: 19px;
+        font-family: san-regular;
+        font-weight: 400;
+        color: #0092FF;
+        border: none;
+        outline: none;
+        position: absolute;
+        right: 20px;
+        top:50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        background-color: rgba(255,255,255, 0);
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    .upicon{
+        position: absolute;
+        right: 20px;
+        top:50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+    }
+    .roate{
+        transform: rotate(180deg);
+        top:30%;
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+}
+}
+.focused{
+   border-color: #0092FF;
+   background: rgba(239,244,254,0.38);
+}
+.register_rules{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: #000000;
+    font-size: 19px;
+    font-family: san-regular;  
+    margin-top: 46px;  
+    img{
+        margin-right: 8px;
+    }
+    a{
+        font-family: san-medium;   
+        color: #0092FF; 
+    }
+    :hover{
+        cursor: pointer;
+    }
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    button{
+        outline: none;
+        border: none;
+    }
+    :first-child, :last-child{
+        width: 168px;
+        height: 52px;
+        background: rgba(0, 146, 255,0.1);
+        border-radius: 5px;
+        text-align: center;
+        line-height: 52px;
+        font-size: 22px;
+        font-family: san-medium;
+        font-weight: 500;
+        color: #0092FF;
+    }
+    :last-child{
+        color: #fff;
+        background: #0092FF;
+        margin-left: 11px;
+    }
+}
+.login_link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    font-family: san-regular; 
+    margin-top: 21px; 
+    span{
+        color: #000000;
+    }
+    a{
+        color: #0092FF;
+        margin-left: 10px;
+    }
+}
+.enterprise{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 347px;
+    max-height: 399px;
+    min-height: 70px;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 23px 45px 9px rgba(6,68,145,0.15);
+    border-radius: 10px;
+    padding: 23px 16px;
+    overflow: auto;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* 设置滚动条的宽度 */
+    &::-webkit-scrollbar {
+        width: 9px;
+        height: 1px;
+        /*或者使用百分比等单位*/
+        border-radius: 5px!important;
+        -webkit-border-radius: 5px!important;
+        -moz-border-radius: 5px!important;
+        -ms-border-radius: 5px!important;
+        -o-border-radius: 5px!important;
+    }
+    
+    /* 设置滚动条的背景色 */
+    &::-webkit-scrollbar-track {
+        background-color: rgba(0,146,255,0.1);
+        border-radius:10px;
+    }
+    
+    /* 设置滑块的样式 */
+    &::-webkit-scrollbar-thumb {
+        background-color: #0092FF;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+ 
+
+}
+.enterprise_item{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.enterprise_item_title{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    img{
+        width: 14px;
+        height: 14px;
+        margin-right: 10px;
+    }
+    :last-child{
+        font-size: 18px;
+        font-family: san-regular;
+        font-weight: 400;
+        color: #49596D;
+    }
+    &:hover{
+        cursor: pointer;
+    }
+    .roateIcon{
+        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+}
+}
+.enterprise_item_child{
+    width: 100%;
+    height: auto;
+    margin-top: 14px;
+    background-color: rgba(229,244,255,0.4);
+    padding: 0 18px 0 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    h5{
+        width: 100%;
+        height: 39px;
+        font-size: 18px;
+        font-family: san-regular;
+        font-weight: 400;
+        color: #49596D;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        text-align: center;
+        line-height: 39px;
+        &:hover{
+            cursor: pointer;
+            background: linear-gradient(-86deg, #0E63CD, #30A1FA);
+            box-shadow: 0px 3px 10px 0px rgba(32,117,215,0.75);
+            border-radius: 5px;
+            color: #FFFFFF;
+        }
+    }
+    .active{
+        background: linear-gradient(-86deg, #0E63CD, #30A1FA);
+        box-shadow: 0px 3px 10px 0px rgba(32,117,215,0.75);
+        border-radius: 5px;
+        color: #FFFFFF;
+    }
+    
+}
+.input_container_error{
+    border-color: #FB6E6E!important;
+}
+.error{
+    width: 345px;
+    text-align: left;
+    font-size: 19px;
+    font-family: san-regular;
+    font-weight: 400;
+    color: #F22A2A;
+}
