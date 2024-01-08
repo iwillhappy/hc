@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "@/styles/courseDetail/courseDetail.module.scss";
+import styles from "@/styles/CourseDetail/CourseDetail.module.scss";
 import Image from "next/image";
 import Link from "next/link";
 import { GetStaticPaths, GetStaticProps } from "next";

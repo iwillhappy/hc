@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./courseConcise.module.scss";
+import styles from "./CourseConcise.module.scss";
 import Image from "next/image";
 import { courseImage2 } from "@/data/imags";
 export default function CourseConcise() {

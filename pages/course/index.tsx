@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "@/styles/coursePage/coursePage.module.scss";
+import styles from "@/styles/CoursePage/CoursePage.module.scss";
 import bookImage from "@/public/imgs/book.png";
 import videoImage from "@/public/imgs/video.png";
 import serchIconImage from "@/public/imgs/search-icon.png";
